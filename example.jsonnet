@@ -37,7 +37,7 @@ local kp =
           externalLabels: {
             // This 'cluster' label will be included on every firing prometheus alert. (This is more useful
             // when running multiple clusters in a shared environment (e.g. AWS) with other users.)
-            cluster: 'minikube-<INSERT YOUR USERNAME HERE>',
+            cluster: 'minikube',
           },
         },
       },
